@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* Set a lightweight base font on html (safer than a universal selector). The layout already
+   applies next/font classes to <body> (see `app/layout.js`), so this is a soft fallback. */
+html {
+  font-family: Outfit;
+}
+
+/* Explicit utility fallback: ensure hover:bg-light-dark exists even in dev/server JIT edge-cases */
+@layer utilities {
+  .hover\:bg-light-dark:hover {
+    /* temporary visible test color */
+    background-color: #cce5ff;
+  }
+}
