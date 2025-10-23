@@ -1,15 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Ovo&display=swap');
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
-/* Set a lightweight base font on html (safer than a universal selector). The layout already
-   applies next/font classes to <body> (see `app/layout.js`), so this is a soft fallback. */
 html {
   font-family: Outfit;
 }
 
-/* Explicit utility fallback: ensure hover:bg-light-dark exists even in dev/server JIT edge-cases */
 @layer utilities {
-  .hover\:bg-light-dark:hover {
-    /* temporary visible test color */
-    background-color: #cce5ff;
-  }
+
 }
+ /* Light mode */
+@theme{
+  --font-Outfit: "Outfit", sans-serif;
+  --font-Ovo: "Ovo", serif;
+
+  --color-lightHover: rgb(252, 244, 255);
+  --color-darkHover: rgb(42, 0, 74);
+  --color-lightDark: rgb(17, 0, 31);
+  --color-darkTheme: rgb(26, 0, 26);
+
+  /* Custom shadows */
+  --shadow-black: 2px 2px 0 #A9A9A9;
+  --shadow-white: 2px 2px 0 #fff;
+
+  /* Custom grid templates */
+  --grid-template-columns-autofit: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+ 
+
+
+
+
+
+     

@@ -20,6 +20,7 @@ module.exports = mod;
 "[project]/portfolio/Portfolio-website/postcss.config.mjs [postcss] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+// import tailwindcss from '@tailwindcss/postcss';
 __turbopack_context__.s([
     "default",
     ()=>__TURBOPACK__default__export__
