@@ -576,6 +576,14 @@
     margin-right: auto;
   }
 
+  .my-0 {
+    margin-block: calc(var(--spacing) * 0);
+  }
+
+  .my-1 {
+    margin-block: calc(var(--spacing) * 1);
+  }
+
   .my-4 {
     margin-block: calc(var(--spacing) * 4);
   }
@@ -586,6 +594,10 @@
 
   .my-10 {
     margin-block: calc(var(--spacing) * 10);
+  }
+
+  .my-15 {
+    margin-block: calc(var(--spacing) * 15);
   }
 
   .my-20 {
@@ -616,6 +628,10 @@
     margin-top: calc(var(--spacing) * 20);
   }
 
+  .mr-4 {
+    margin-right: calc(var(--spacing) * 4);
+  }
+
   .mr-24 {
     margin-right: calc(var(--spacing) * 24);
   }
@@ -626,6 +642,10 @@
 
   .mb-3 {
     margin-bottom: calc(var(--spacing) * 3);
+  }
+
+  .mb-5 {
+    margin-bottom: calc(var(--spacing) * 5);
   }
 
   .mb-6 {
@@ -680,6 +700,10 @@
     height: 100vh;
   }
 
+  .w-1 {
+    width: calc(var(--spacing) * 1);
+  }
+
   .w-3 {
     width: calc(var(--spacing) * 3);
   }
@@ -698,6 +722,10 @@
 
   .w-7 {
     width: calc(var(--spacing) * 7);
+  }
+
+  .w-8 {
+    width: calc(var(--spacing) * 8);
   }
 
   .w-9 {
@@ -720,8 +748,28 @@
     width: calc(var(--spacing) * 12);
   }
 
+  .w-16 {
+    width: calc(var(--spacing) * 16);
+  }
+
+  .w-18 {
+    width: calc(var(--spacing) * 18);
+  }
+
+  .w-19 {
+    width: calc(var(--spacing) * 19);
+  }
+
+  .w-26 {
+    width: calc(var(--spacing) * 26);
+  }
+
   .w-28 {
     width: calc(var(--spacing) * 28);
+  }
+
+  .w-29 {
+    width: calc(var(--spacing) * 29);
   }
 
   .w-32 {
@@ -734,6 +782,10 @@
 
   .w-64 {
     width: calc(var(--spacing) * 64);
+  }
+
+  .w-68 {
+    width: calc(var(--spacing) * 68);
   }
 
   .w-full {
@@ -782,6 +834,10 @@
     scroll-margin-top: calc(var(--spacing) * 20);
   }
 
+  .scroll-mt-30 {
+    scroll-margin-top: calc(var(--spacing) * 30);
+  }
+
   .grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
@@ -810,6 +866,10 @@
     justify-content: center;
   }
 
+  .gap-1 {
+    gap: calc(var(--spacing) * 1);
+  }
+
   .gap-2 {
     gap: calc(var(--spacing) * 2);
   }
@@ -832,6 +892,10 @@
 
   .gap-10 {
     gap: calc(var(--spacing) * 10);
+  }
+
+  .gap-15 {
+    gap: calc(var(--spacing) * 15);
   }
 
   .gap-20 {

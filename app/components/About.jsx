@@ -34,7 +34,7 @@ const About = (isDarkMode) => {
       initial={{opacity:0}}
       whileInView={{opacity:1}}
       transition={{duration: 0.8}}
-      className="flex w-full flex-col lg:flex-row items-center gap-20 my-20 ">
+      className="flex w-full flex-col lg:flex-row items-center gap-20 my-15 ">
 
         <motion.div
           initial={{opacity:0, scale:0.9}}
@@ -104,10 +104,10 @@ const About = (isDarkMode) => {
             {toolsData.map((tool, index) => (
               <motion.li
               whileHover={{scale: 1.1}}
-                className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-300 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
+                className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-300 rounded-lg cursor-pointer hover:-translate-y-1 duration-500 "
                 key={index}
               >
-                <Image src={tool} alt="Tool" className="w-5 sm:w-7" />
+                <Image src={tool} alt="Tool" className="w-5 sm:w-7 " />
               </motion.li>
             ))}
           </motion.ul>

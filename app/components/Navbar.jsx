@@ -29,7 +29,6 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
     <> 
       <div className="fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%] dark:hidden">
         <Image
-          // src={assets.header_bg_color?.src || assets.header_bg_color}
           src={assets.header_bg_color}
           alt="header background"
           className="w-full"
@@ -43,7 +42,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           <Image
             src={isDarkMode ? assets.logo_dark : assets.logo}
             alt="Logo"
-            className="w-28 cursor-pointer mr-24"
+            className="w-29 cursor-pointer mr-24"
           />
         </a>
 

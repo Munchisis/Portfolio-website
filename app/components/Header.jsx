@@ -34,7 +34,7 @@ const Header = () => {
       
       className='text-3xl sm:text-6xl lg:text-[66px
       font-Ovo'>
-        A <span className='text-[#FF6363] dark:text-[#f1c1f1]'>Product Designer</span> & <span className='text-[#FF6363] dark:text-[#f1c1f1]'>Front-end Developer</span> based in Lagos, Nigeria.
+        A <span className='text-[#FF6363] dark:text-[#f1c1f1]'>Product Designer</span> & <span className='text-[#FF6363] dark:text-[#f1c1f1]'>Front-end Developer</span> based in Nigeria.
       </motion.h1>
 
         <motion.p 
