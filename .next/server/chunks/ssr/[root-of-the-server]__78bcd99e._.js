@@ -782,11 +782,234 @@ const __TURBOPACK__default__export__ = {
     blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4ka1VAAAAhklEQVR42l3OIQ7DIBiG4R+BWyaXBbMMT7ZsDktQOE4xgdg18DMTE0w06QGQDZogkQTVO6DbiiZN3+SxXz6AXUqpe0qpF0LcMMYICCFnsolSerHWvkop3hgjwXv/mf22Qgj/1tpYax2WhcPsuGKMnZxz7xhjJ6V87i+A1vqRc/5yzq8IIZgA4i4zITqr7YsAAAAASUVORK5CYII="
 };
 }),
-"[project]/portfolio/Portfolio-website/assets/assets.js [app-ssr] (ecmascript)", ((__turbopack_context__, module, exports) => {
+"[project]/portfolio/Portfolio-website/assets/vue-js.png (static in ecmascript)", ((__turbopack_context__) => {
 
-const e = new Error("Could not parse module '[project]/portfolio/Portfolio-website/assets/assets.js'\n\nExpected ',', got 'export'");
-e.code = 'MODULE_UNPARSABLE';
-throw e;
+__turbopack_context__.v("/_next/static/media/vue-js.91346501.png");}),
+"[project]/portfolio/Portfolio-website/assets/vue-js.png.mjs { IMAGE => \"[project]/portfolio/Portfolio-website/assets/vue-js.png (static in ecmascript)\" } [app-ssr] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$vue$2d$js$2e$png__$28$static__in__ecmascript$29$__ = __turbopack_context__.i("[project]/portfolio/Portfolio-website/assets/vue-js.png (static in ecmascript)");
+;
+const __TURBOPACK__default__export__ = {
+    src: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$vue$2d$js$2e$png__$28$static__in__ecmascript$29$__["default"],
+    width: 329,
+    height: 295,
+    blurWidth: 8,
+    blurHeight: 7,
+    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAHCAYAAAA1WQxeAAAA3klEQVR42l3GP+sBYQDA8eeeK/x+MdBlFCG3YDoucf6cOiTKxDEolOXOQEhdkUlCyCsgFhaTwTsgFoO3IC+ARQ8GJZ/61hd4W/khMygdqXhqbyDtCb3FGqdiyZ2nLx697cIEGIMUF1hKF1ddRHSEP7zau6oCYlfS1czRUSD7k8sdNb7nW0gPJ59HjlQO+eavb6RHsn+FArwRZp3JP62d3N0KcnfKyD+rn7WkngQfEIfQmuGKgXXzxq5bd1s2LEAch+CbklBrmLGwYSbiVqXVEOAXhmHAxFJBC0eH3v/xBA2dPhN/+c66AAAAAElFTkSuQmCC"
+};
+}),
+"[project]/portfolio/Portfolio-website/assets/assets.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "assets",
+    ()=>assets,
+    "infoList",
+    ()=>infoList,
+    "serviceData",
+    ()=>serviceData,
+    "toolsData",
+    ()=>toolsData,
+    "workData",
+    ()=>workData
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$user$2d$image$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$user$2d$image$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/portfolio/Portfolio-website/assets/user-image.png.mjs { IMAGE => "[project]/portfolio/Portfolio-website/assets/user-image.png (static in ecmascript)" } [app-ssr] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$code$2d$icon$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$code$2d$icon$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/portfolio/Portfolio-website/assets/code-icon.png.mjs { IMAGE => "[project]/portfolio/Portfolio-website/assets/code-icon.png (static in ecmascript)" } [app-ssr] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$code$2d$icon$2d$dark$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$code$2d$icon$2d$dark$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/portfolio/Portfolio-website/assets/code-icon-dark.png.mjs { IMAGE => "[project]/portfolio/Portfolio-website/assets/code-icon-dark.png (static in ecmascript)" } [app-ssr] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$edu$2d$icon$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$edu$2d$icon$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/portfolio/Portfolio-website/assets/edu-icon.png.mjs { IMAGE => "[project]/portfolio/Portfolio-website/assets/edu-icon.png (static in ecmascript)" } [app-ssr] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$edu$2d$icon$2d$dark$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$edu$2d$icon$2d$dark$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/portfolio/Portfolio-website/assets/edu-icon-dark.png.mjs { IMAGE => "[project]/portfolio/Portfolio-website/assets/edu-icon-dark.png (static in ecmascript)" } [app-ssr] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$project$2d$icon$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$project$2d$icon$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/portfolio/Portfolio-website/assets/project-icon.png.mjs { IMAGE => "[project]/portfolio/Portfolio-website/assets/project-icon.png (static in ecmascript)" } [app-ssr] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$project$2d$icon$2d$dark$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$project$2d$icon$2d$dark$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/portfolio/Portfolio-website/assets/project-icon-dark.png.mjs { IMAGE => "[project]/portfolio/Portfolio-website/assets/project-icon-dark.png (static in ecmascript)" } [app-ssr] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$vscode$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$vscode$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/portfolio/Portfolio-website/assets/vscode.png.mjs { IMAGE => "[project]/portfolio/Portfolio-website/assets/vscode.png (static in ecmascript)" } [app-ssr] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$firebase$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$firebase$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/portfolio/Portfolio-website/assets/firebase.png.mjs { IMAGE => "[project]/portfolio/Portfolio-website/assets/firebase.png (static in ecmascript)" } [app-ssr] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$figma$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$figma$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/portfolio/Portfolio-website/assets/figma.png.mjs { IMAGE => "[project]/portfolio/Portfolio-website/assets/figma.png (static in ecmascript)" } [app-ssr] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$git$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$git$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/portfolio/Portfolio-website/assets/git.png.mjs { IMAGE => "[project]/portfolio/Portfolio-website/assets/git.png (static in ecmascript)" } [app-ssr] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$mongodb$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$mongodb$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/portfolio/Portfolio-website/assets/mongodb.png.mjs { IMAGE => "[project]/portfolio/Portfolio-website/assets/mongodb.png (static in ecmascript)" } [app-ssr] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$right$2d$arrow$2d$white$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$right$2d$arrow$2d$white$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/portfolio/Portfolio-website/assets/right-arrow-white.png.mjs { IMAGE => "[project]/portfolio/Portfolio-website/assets/right-arrow-white.png (static in ecmascript)" } [app-ssr] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$logo$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$logo$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/portfolio/Portfolio-website/assets/logo.png.mjs { IMAGE => "[project]/portfolio/Portfolio-website/assets/logo.png (static in ecmascript)" } [app-ssr] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$logo_dark$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$logo_dark$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/portfolio/Portfolio-website/assets/logo_dark.png.mjs { IMAGE => "[project]/portfolio/Portfolio-website/assets/logo_dark.png (static in ecmascript)" } [app-ssr] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$mail_icon$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$mail_icon$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/portfolio/Portfolio-website/assets/mail_icon.png.mjs { IMAGE => "[project]/portfolio/Portfolio-website/assets/mail_icon.png (static in ecmascript)" } [app-ssr] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$mail_icon_dark$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$mail_icon_dark$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/portfolio/Portfolio-website/assets/mail_icon_dark.png.mjs { IMAGE => "[project]/portfolio/Portfolio-website/assets/mail_icon_dark.png (static in ecmascript)" } [app-ssr] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$profile$2d$img$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$profile$2d$img$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/portfolio/Portfolio-website/assets/profile-img.png.mjs { IMAGE => "[project]/portfolio/Portfolio-website/assets/profile-img.png (static in ecmascript)" } [app-ssr] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$download$2d$icon$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$download$2d$icon$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/portfolio/Portfolio-website/assets/download-icon.png.mjs { IMAGE => "[project]/portfolio/Portfolio-website/assets/download-icon.png (static in ecmascript)" } [app-ssr] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$hand$2d$icon$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$hand$2d$icon$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/portfolio/Portfolio-website/assets/hand-icon.png.mjs { IMAGE => "[project]/portfolio/Portfolio-website/assets/hand-icon.png (static in ecmascript)" } [app-ssr] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$header$2d$bg$2d$color$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$header$2d$bg$2d$color$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/portfolio/Portfolio-website/assets/header-bg-color.png.mjs { IMAGE => "[project]/portfolio/Portfolio-website/assets/header-bg-color.png (static in ecmascript)" } [app-ssr] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$moon_icon$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$moon_icon$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/portfolio/Portfolio-website/assets/moon_icon.png.mjs { IMAGE => "[project]/portfolio/Portfolio-website/assets/moon_icon.png (static in ecmascript)" } [app-ssr] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$sun_icon$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$sun_icon$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/portfolio/Portfolio-website/assets/sun_icon.png.mjs { IMAGE => "[project]/portfolio/Portfolio-website/assets/sun_icon.png (static in ecmascript)" } [app-ssr] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$arrow$2d$icon$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$arrow$2d$icon$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/portfolio/Portfolio-website/assets/arrow-icon.png.mjs { IMAGE => "[project]/portfolio/Portfolio-website/assets/arrow-icon.png (static in ecmascript)" } [app-ssr] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$arrow$2d$icon$2d$dark$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$arrow$2d$icon$2d$dark$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/portfolio/Portfolio-website/assets/arrow-icon-dark.png.mjs { IMAGE => "[project]/portfolio/Portfolio-website/assets/arrow-icon-dark.png (static in ecmascript)" } [app-ssr] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$menu$2d$black$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$menu$2d$black$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/portfolio/Portfolio-website/assets/menu-black.png.mjs { IMAGE => "[project]/portfolio/Portfolio-website/assets/menu-black.png (static in ecmascript)" } [app-ssr] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$menu$2d$white$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$menu$2d$white$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/portfolio/Portfolio-website/assets/menu-white.png.mjs { IMAGE => "[project]/portfolio/Portfolio-website/assets/menu-white.png (static in ecmascript)" } [app-ssr] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$close$2d$black$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$close$2d$black$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/portfolio/Portfolio-website/assets/close-black.png.mjs { IMAGE => "[project]/portfolio/Portfolio-website/assets/close-black.png (static in ecmascript)" } [app-ssr] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$close$2d$white$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$close$2d$white$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/portfolio/Portfolio-website/assets/close-white.png.mjs { IMAGE => "[project]/portfolio/Portfolio-website/assets/close-white.png (static in ecmascript)" } [app-ssr] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$web$2d$icon$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$web$2d$icon$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/portfolio/Portfolio-website/assets/web-icon.png.mjs { IMAGE => "[project]/portfolio/Portfolio-website/assets/web-icon.png (static in ecmascript)" } [app-ssr] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$mobile$2d$icon$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$mobile$2d$icon$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/portfolio/Portfolio-website/assets/mobile-icon.png.mjs { IMAGE => "[project]/portfolio/Portfolio-website/assets/mobile-icon.png (static in ecmascript)" } [app-ssr] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$ui$2d$icon$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$ui$2d$icon$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/portfolio/Portfolio-website/assets/ui-icon.png.mjs { IMAGE => "[project]/portfolio/Portfolio-website/assets/ui-icon.png (static in ecmascript)" } [app-ssr] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$graphics$2d$icon$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$graphics$2d$icon$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/portfolio/Portfolio-website/assets/graphics-icon.png.mjs { IMAGE => "[project]/portfolio/Portfolio-website/assets/graphics-icon.png (static in ecmascript)" } [app-ssr] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$right$2d$arrow$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$right$2d$arrow$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/portfolio/Portfolio-website/assets/right-arrow.png.mjs { IMAGE => "[project]/portfolio/Portfolio-website/assets/right-arrow.png (static in ecmascript)" } [app-ssr] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$send$2d$icon$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$send$2d$icon$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/portfolio/Portfolio-website/assets/send-icon.png.mjs { IMAGE => "[project]/portfolio/Portfolio-website/assets/send-icon.png (static in ecmascript)" } [app-ssr] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$right$2d$arrow$2d$bold$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$right$2d$arrow$2d$bold$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/portfolio/Portfolio-website/assets/right-arrow-bold.png.mjs { IMAGE => "[project]/portfolio/Portfolio-website/assets/right-arrow-bold.png (static in ecmascript)" } [app-ssr] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$right$2d$arrow$2d$bold$2d$dark$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$right$2d$arrow$2d$bold$2d$dark$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/portfolio/Portfolio-website/assets/right-arrow-bold-dark.png.mjs { IMAGE => "[project]/portfolio/Portfolio-website/assets/right-arrow-bold-dark.png (static in ecmascript)" } [app-ssr] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$vue$2d$js$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$vue$2d$js$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/portfolio/Portfolio-website/assets/vue-js.png.mjs { IMAGE => "[project]/portfolio/Portfolio-website/assets/vue-js.png (static in ecmascript)" } [app-ssr] (structured image object with data url, ecmascript)');
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+const assets = {
+    user_image: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$user$2d$image$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$user$2d$image$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+    code_icon: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$code$2d$icon$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$code$2d$icon$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+    code_icon_dark: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$code$2d$icon$2d$dark$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$code$2d$icon$2d$dark$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+    edu_icon: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$edu$2d$icon$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$edu$2d$icon$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+    edu_icon_dark: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$edu$2d$icon$2d$dark$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$edu$2d$icon$2d$dark$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+    project_icon: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$project$2d$icon$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$project$2d$icon$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+    project_icon_dark: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$project$2d$icon$2d$dark$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$project$2d$icon$2d$dark$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+    vscode: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$vscode$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$vscode$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+    firebase: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$firebase$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$firebase$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+    figma: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$figma$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$figma$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+    git: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$git$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$git$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+    mongodb: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$mongodb$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$mongodb$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+    right_arrow_white: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$right$2d$arrow$2d$white$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$right$2d$arrow$2d$white$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+    logo: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$logo$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$logo$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+    logo_dark: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$logo_dark$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$logo_dark$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+    mail_icon: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$mail_icon$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$mail_icon$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+    mail_icon_dark: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$mail_icon_dark$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$mail_icon_dark$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+    profile_img: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$profile$2d$img$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$profile$2d$img$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+    download_icon: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$download$2d$icon$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$download$2d$icon$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+    hand_icon: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$hand$2d$icon$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$hand$2d$icon$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+    header_bg_color: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$header$2d$bg$2d$color$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$header$2d$bg$2d$color$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+    moon_icon: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$moon_icon$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$moon_icon$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+    sun_icon: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$sun_icon$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$sun_icon$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+    arrow_icon: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$arrow$2d$icon$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$arrow$2d$icon$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+    arrow_icon_dark: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$arrow$2d$icon$2d$dark$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$arrow$2d$icon$2d$dark$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+    menu_black: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$menu$2d$black$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$menu$2d$black$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+    menu_white: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$menu$2d$white$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$menu$2d$white$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+    close_black: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$close$2d$black$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$close$2d$black$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+    close_white: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$close$2d$white$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$close$2d$white$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+    web_icon: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$web$2d$icon$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$web$2d$icon$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+    mobile_icon: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$mobile$2d$icon$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$mobile$2d$icon$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+    ui_icon: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$ui$2d$icon$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$ui$2d$icon$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+    graphics_icon: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$graphics$2d$icon$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$graphics$2d$icon$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+    right_arrow: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$right$2d$arrow$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$right$2d$arrow$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+    send_icon: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$send$2d$icon$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$send$2d$icon$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+    right_arrow_bold: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$right$2d$arrow$2d$bold$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$right$2d$arrow$2d$bold$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+    right_arrow_bold_dark: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$right$2d$arrow$2d$bold$2d$dark$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$right$2d$arrow$2d$bold$2d$dark$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+    vue_js: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$vue$2d$js$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$vue$2d$js$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"]
+};
+const workData = [
+    {
+        title: 'Frontend project',
+        description: 'Web Design',
+        bgImage: '/work-1.png'
+    },
+    {
+        title: 'Geo based app',
+        description: 'Mobile App',
+        bgImage: '/work-2.png'
+    },
+    {
+        title: 'Photography site',
+        description: 'Web Design',
+        bgImage: '/work-3.png'
+    },
+    {
+        title: 'UI/UX designing',
+        description: 'UI/UX Design',
+        bgImage: '/work-4.png'
+    }
+];
+const serviceData = [
+    {
+        icon: assets.web_icon,
+        title: 'Web design',
+        description: 'Web development is the process of building, programming...',
+        link: ''
+    },
+    {
+        icon: assets.mobile_icon,
+        title: 'Mobile app',
+        description: 'Mobile app development involves creating software for mobile devices...',
+        link: ''
+    },
+    {
+        icon: assets.ui_icon,
+        title: 'UI/UX design',
+        description: 'UI/UX design focuses on creating a seamless user experience...',
+        link: ''
+    },
+    {
+        icon: assets.graphics_icon,
+        title: 'Graphics design',
+        description: 'Creative design solutions to enhance visual communication...',
+        link: ''
+    }
+];
+const infoList = [
+    {
+        icon: assets.code_icon,
+        iconDark: assets.code_icon_dark,
+        title: 'Languages',
+        description: 'HTML, CSS, JavaScript React Js, Next Js'
+    },
+    {
+        icon: assets.edu_icon,
+        iconDark: assets.edu_icon_dark,
+        title: 'Education',
+        description: 'B.Tech in Computer Science'
+    },
+    {
+        icon: assets.project_icon,
+        iconDark: assets.project_icon_dark,
+        title: 'Projects',
+        description: 'Built more than 5 projects'
+    }
+];
+const toolsData = [
+    assets.vscode,
+    assets.firebase,
+    assets.mongodb,
+    assets.figma,
+    assets.git,
+    assets.vue_js
+];
 }),
 "[project]/portfolio/Portfolio-website/app/components/Navbar.jsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
@@ -2458,4 +2681,4 @@ function Home() {
 }),
 ];
 
-//# sourceMappingURL=%5Broot-of-the-server%5D__314233d4._.js.map
+//# sourceMappingURL=%5Broot-of-the-server%5D__78bcd99e._.js.map
