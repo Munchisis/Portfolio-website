@@ -358,7 +358,7 @@ const __TURBOPACK__default__export__ = {
 }),
 "[project]/portfolio/Portfolio-website/assets/profile-img.png (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/profile-img.161ffn.ely3pl.png" + (globalThis["NEXT_CLIENT_ASSET_SUFFIX"] || ''));}),
+__turbopack_context__.v("/_next/static/media/profile-img.1766tabfxzmbk.png" + (globalThis["NEXT_CLIENT_ASSET_SUFFIX"] || ''));}),
 "[project]/portfolio/Portfolio-website/assets/profile-img.png.mjs { IMAGE => \"[project]/portfolio/Portfolio-website/assets/profile-img.png (static in ecmascript, tag client)\" } [app-ssr] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -370,11 +370,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$we
 ;
 const __TURBOPACK__default__export__ = {
     src: __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$Portfolio$2d$website$2f$assets$2f$profile$2d$img$2e$png__$28$static__in__ecmascript$2c$__tag__client$29$__["default"],
-    width: 1873,
-    height: 2052,
-    blurWidth: 7,
+    width: 515,
+    height: 541,
+    blurWidth: 8,
     blurHeight: 8,
-    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAICAYAAAA1BOUGAAAA1klEQVR42l3JuwsBcQDA8d91zvM4yqt0iSQkjyuvY3DiokjSUSYTkXImj8wyuSibwWhQ/gp/gY3JZiTZ1I8MF771nT4AfIVhmEz6HvxnNBjIYa+76vOdOaFRa3+wwGZ6W2H63C2m96DXxYiAoijSqXHL3WQE12P+4Xfa0yIq5QpVOc0Is1YdNou5A6HGyQ9YTRZfNVXaVDKla46OwXaRO2dDiTouVxLAZiajZYY7JqMsjFM0HFQbUGgMLpTDkwcIgqB6nZENuKl9xBe5ZcPMiXYHeakEw1/l1TPJrxHzmQAAAABJRU5ErkJggg=="
+    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAABC0lEQVR42gWAXStDYQCA31/hYhIlU9qU0cq20qyNtJALzW6sZDUas5N00trE2i5mJs0asWxFrE0cObWa5IIVrWUt+chfeZaot75p/f5TrjwTTqTInh1zkE2xdxhnLbyF+Gh+0fz5o/xYIR3ZphCVKVxdsH+eQU7EELVGi9f6J8r9A8llNxGXk1LxGrX2Rl5VES/vDS7vVNTKE6sL87gm7eSLt9xUq+QUBVFQSsSPTpBCMYLSDtK6TOY0RzKdIRSLIjZ2/dhn3TjmFvF6AkjeTZZ8AawTM4xPOREe/wqDxjFMtmnMow4sRhv6YTOd3Vr6dQaELyjTpxvBYLIxMGRGqzei6eqlQ9ODxeqgDaxonW6wzxotAAAAAElFTkSuQmCC"
 };
 }),
 "[project]/portfolio/Portfolio-website/assets/download-icon.png (static in ecmascript, tag client)", ((__turbopack_context__) => {

@@ -1,0 +1,5 @@
+(globalThis["TURBOPACK_CHUNK_LISTS"] || (globalThis["TURBOPACK_CHUNK_LISTS"] = [])).push({
+    script: typeof document === "object" ? document.currentScript : undefined,
+    chunks: ["static/chunks/0ycy_next_dist_compiled_00o.n5q._.js","static/chunks/0ycy_next_dist_shared_lib_04kn1l4._.js","static/chunks/0ycy_next_dist_client_02228v5._.js","static/chunks/0ycy_next_dist_0855l00._.js","static/chunks/0ycy_next_app_0z63s2r.js","static/chunks/[next]_entry_page-loader_ts_0-tg29x._.js","static/chunks/0ycy_react-dom_0szrupm._.js","static/chunks/0ycy_0wbcq~h._.js","static/chunks/[root-of-the-server]__0x1khp5._.js"],
+    source: "entry"
+});
