@@ -7,6 +7,7 @@ import Work from "@/app/components/Work";
 import Contact from "@/app/components/Contact";
 import Footer from "@/app/components/Footer";
 import { useEffect, useState } from "react";
+import { ToastContainer } from "react-toastify";
 
 export default function Home() {
 
@@ -30,7 +31,8 @@ export default function Home() {
     }
   },[isDarkMode])
   return (
-   <>
+    <>
+  <ToastContainer />
    <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode}/>
    <Header isDarkMode={isDarkMode}/>
    <About isDarkMode={isDarkMode}/>
