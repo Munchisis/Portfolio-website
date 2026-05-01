@@ -2236,7 +2236,7 @@ const Contact = ()=>{
     const onSubmit = async (event)=>{
         event.preventDefault();
         const formData = new FormData(event.target);
-        formData.append("access_key", process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY);
+        formData.append("access_key", ("TURBOPACK compile-time value", "8b3627ea-3c96-409a-a296-43cc60fb7265"));
         try {
             const response = await fetch("https://api.web3forms.com/submit", {
                 method: "POST",
