@@ -1,90 +1,103 @@
-import React from 'react'
-import Image from 'next/image'
-import { assets } from '@/assets/assets'
-import { motion } from "motion/react"
-
-
-
+import React from "react";
+import Image from "next/image";
+import { assets } from "@/assets/assets";
+import { motion } from "motion/react";
 
 const Header = () => {
   return (
-    <div className="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
+    <div className="w-11/12 max-w-3xl text-center mx-auto min-h-screen flex flex-col items-center justify-center gap-6">
+      {/* Avatar */}
       <motion.div
         initial={{ scale: 0 }}
         whileInView={{ scale: 1 }}
-        transition={{ duration: 0.8, type: "spring", stiffness: 100 }}
+        transition={{ duration: 0.6, type: "spring", stiffness: 100 }}
       >
-        <Image src={assets.profile_img} alt="" className="rounded-full w-32" />
+        <Image
+          src={assets.profile_img}
+          alt="Chigozie Emuchay"
+          className="rounded-full w-28 sm:w-32"
+        />
       </motion.div>
 
+      {/* Name */}
       <motion.h3
         initial={{ y: -20, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.6, delay: 0.3 }}
-        className="flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo"
+        transition={{ duration: 0.5 }}
+        className="text-xl md:text-2xl font-Ovo flex items-center gap-2"
       >
-        Hi! I&apos;m Chigozie Emuchay
-        <Image src={assets.hand_icon} alt="" className="w-6" />
+        Hi, I’m Chigozie
+        <Image src={assets.hand_icon} alt="wave" className="w-5" />
       </motion.h3>
 
+      {/* Role */}
+      <p className="text-sm text-gray-500 dark:text-gray-400">
+        Full Stack Engineer · React · Node.js · Scalable Systems
+      </p>
+
+      {/* Main Headline */}
       <motion.h1
         initial={{ y: -30, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.8, delay: 0.5 }}
-        className="text-3xl sm:text-6xl lg:text-[66px] font-Ovo"
+        transition={{ duration: 0.7 }}
+        className="text-3xl sm:text-5xl font-semibold leading-tight"
       >
-        A{" "}
+        I build{" "}
         <span className="text-[#FF6363] dark:text-[#f1c1f1]">
-          Product Designer
+          production-ready
         </span>{" "}
-        &{" "}
-        <span className="text-[#FF6363] dark:text-[#f1c1f1]">
-          Front-end Developer
-        </span>{" "}
-        based in Nigeria.
+        web applications that are fast, scalable, and reliable
       </motion.h1>
 
+      {/* Supporting line */}
       <motion.p
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        transition={{ duration: 0.6, delay: 0.7 }}
-        className="max-w-2xl mx-auto font-Ovo"
+        transition={{ duration: 0.6 }}
+        className="max-w-xl text-gray-600 dark:text-gray-400 text-sm sm:text-base"
       >
-        I create user-friendly, accessible, and visually appealing digital
-        experiences that solve real-world problems. Let&apos;s work together to
-        bring your ideas to life!
+        4+ years experience building full-stack applications across the MERN &
+        PERN stack — from intuitive frontends to secure backend systems and
+        cloud deployment.
       </motion.p>
 
+      {/* CTA Buttons */}
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
         <motion.a
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.6, delay: 1 }}
-          href="#contact"
-          className="px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 dark:bg-transparent"
+          transition={{ duration: 0.6 }}
+          href="#projects"
+          className="px-8 py-3 rounded-full bg-black text-white flex items-center gap-2 hover:scale-105 transition dark:bg-white dark:text-black"
         >
-          Contact me{" "}
-          <Image
-            src={assets.right_arrow_white}
-            alt=""
-            className="rounded-full w-4"
-          />{" "}
+          View Projects
+          <Image src={assets.right_arrow_white} alt="" className="w-4" />
         </motion.a>
 
         <motion.a
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.6, delay: 1.2 }}
+          transition={{ duration: 0.6, delay: 0.1 }}
+          href="#contact"
+          className="px-8 py-3 rounded-full border border-gray-400 flex items-center gap-2 hover:scale-105 transition"
+        >
+          Contact Me
+        </motion.a>
+
+        <motion.a
+          initial={{ y: 30, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
           href="/Emuchay_Chigozie_Fullstack_CV.pdf"
           download
-          className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black"
+          className="px-8 py-3 rounded-full border border-gray-400 flex items-center gap-2 hover:scale-105 transition"
         >
-          My resume{" "}
-          <Image src={assets.download_icon} alt="" className="w-4" />{" "}
+          Resume
+          <Image src={assets.download_icon} alt="" className="w-4" />
         </motion.a>
       </div>
     </div>
   );
-}
+};
 
-export default Header
+export default Header;
